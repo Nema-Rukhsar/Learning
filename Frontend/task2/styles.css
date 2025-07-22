@@ -1,0 +1,149 @@
+body{
+  padding: 25px;
+}
+.title {
+  color: #5C6AC4;
+}
+.container{
+  max-width: 900px;
+  background-color: rgb(248,248,248);
+  margin: 0;
+  padding: 20px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+  padding: 20px 30px;
+  background-color:  rgb(25, 25, 112);
+  text-align: center;
+
+}
+
+.right{
+   display: flex;
+  gap: 20px;
+  padding-left: 100px;
+
+  
+}
+.right a{
+   text-decoration: none;
+   color: white;
+ }
+ .left img{
+   width: 260px;
+   
+ }
+ 
+ .registration{
+  border: 1px solid black;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 13px;
+  background-color: white;
+}
+ .registration button{
+   color: white;
+   background-color:  rgb(25, 25, 112);
+   cursor: pointer;
+   border-radius: 12px;
+   width: 100px;
+   text-align: center;
+   margin: 12px;
+   padding: 12px 20px;
+  
+ }
+ .registration input{
+ 
+ width:100%;
+ 
+ }
+
+.gender-options {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.gender-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.gender-options input[type="radio"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
+.gender-options input[type="radio"]:checked {
+  accent-color: rgb(25, 25, 112);
+}
+ 
+ 
+ .form{
+  border:1px solid black ;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 13px;
+  background-color: white;
+   
+   
+ }
+  .form table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 10px;
+  }
+
+  .form th, .form td {
+    border: 1px solid #888; 
+    padding: 10px;
+    text-align: left;
+  }
+
+  .form th {
+    background-color: #f0f0f0;
+  }
+
+  .form td:hover {
+    background-color: #f9f9f9; 
+  }
+  .form table tr:hover {
+  background-color: #eef;
+}
+
+  .box{ 
+  display: flex;
+  justify-content: space-between;
+  }
+  .footer{
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color: rgb(25, 25, 112) ;
+    /*justify-content: center;*/
+    text-align: center;
+    color: white;
+    padding: 2px;
+  }
+.checkbox{
+  display: flex;
+gap: 10px;
+}
+/*.checkbox {*/
+/*  display: flex;*/
+/* width: 10px;*/
+
+/*}*/
+/*input[type="checkbox"] {*/
+/*  vertical-align: top;*/
+/*}*/
+.footer-links a{
+  color: white;
+  text-decoration: none;
+  
+}
+.footer-links {
+  margin-top: 10px;
+}
